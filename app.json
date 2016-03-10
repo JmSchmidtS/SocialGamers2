@@ -1,0 +1,16 @@
+{
+  "name": "ze-app",
+  "description": "Image Generator",
+  "keywords": [
+    "productivity"
+  ],
+  "repository": "https://github.com/alexandrevicenzi/ze",
+  "env": {
+    "ZE_CONFIG": {
+      "description": "Ze config file.",
+      "value": "",
+      "required": false
+    }
+  },
+  "image": "heroku/python"
+}

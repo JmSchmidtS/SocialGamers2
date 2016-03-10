@@ -1,0 +1,29 @@
+site_name: 'Social Gamers Facebook Image Generator'
+# ga: 'UA-74964748-1'
+port: 5000
+debug: true
+image_path_format: 'images/%(image)s_%(color)s.png'
+nick:
+  font_path: 'fonts/Harabara.ttf'
+  font_size: 30
+  text_x: 574
+  text_y: 148
+lane:
+  font_path: 'fonts/Harabara.ttf'
+  font_size: 24
+  text_x: 550
+  text_y: 202
+colors:
+  - name: 'laranja'
+    description: 'Laranja'
+  - name: 'roxo'
+    description: 'Roxo'
+  - name: 'azul'
+    description: 'Azul'
+images:
+  - name: 'leesinpunhosdeaco'
+    description: 'Leesin Punhos de Aço'
+  - name: 'dravengladiador'
+    description: 'Draven Gladiador'
+  - name: 'projectfiora'
+    description: 'Projeto Fiora'
